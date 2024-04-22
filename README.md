@@ -48,7 +48,7 @@ python 210010012_client.py
 
 1. First, the name of the client will be asked.
 
-   ```
+   ```bash
    Enter your name: rahul
    ```
 
@@ -66,13 +66,15 @@ python 210010012_client.py
 
    - When the client types 1, they will know the available clients and they will be able to send messages to the available clients. If they type the wrong name, they will be asked to enter the name of the receiver again.
    - When the client types 2, they will be given the list of possible videos.
-     ```
+
+     ```bash
      Video_1 Video_2
      Enter the video to watch (1 or 2):
      ```
+
      If they type 1, video 1 will be played, and if they type 2, video 2 will be played with different resolutions.
+
    - When the client types 3, they will be removed from the list of clients' data at the server, and at the client level, their name will not be present in the available clients.
 
 **Note**: There is one exception that when the video is playing, if another client tries to join the chat, this will cause a thread error. So please do not join when the video is being played. After the video completion, the clients will be able to join the chat.
 
-Thank you.
